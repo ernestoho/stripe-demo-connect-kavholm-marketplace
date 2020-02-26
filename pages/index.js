@@ -9,13 +9,13 @@ class Home extends React.Component {
       <Layout
         isAuthenticated={this.props.isAuthenticated}
         userProfile={this.props.userProfile}
-        title="Welcome"
+        title="Keloke!"
       >
         <div className="home">
           <div className="splash-image">
             <div className="container">
               <div className="popover">
-                <h1>Book unique places to stay around the globe</h1>
+                <h1>Book unique places to stay in Cabarete</h1>
 
                 <HomeSearchForm size="large" />
 
